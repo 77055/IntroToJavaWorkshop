@@ -6,8 +6,11 @@ import org.jointheleague.graphical.robot.Robot;
 public class MyFirstJavaProgram {
 	public static void main(String[] args) {
 		
-		// START HERE
-
+		// START HERe
+		Robot MrQuack= new Robot(); 
+        MrQuack.penDown();
+        MrQuack.setPenColor(Color.BLACK);
+        
 	
 		
 		
